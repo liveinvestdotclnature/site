@@ -1,0 +1,22 @@
+.elementor-control-box_shadow_box_shadow_position {
+    display: none;
+}
+
+.elementor-control-wpmf_gallery_border_width .elementor-control-dimensions li {
+    width: 25%;
+}
+
+.wpmf-pdf-embed-elementor-icon:before,
+.wpmf-file-design-elementor-icon:before,
+.wpmf-gallery-elementor-icon:before,
+.wpmf-gallery-addon-elementor-icon:before {
+    content: '';
+    width: auto;
+    height: auto;
+    min-width: 32px;
+    min-height: 29px;
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}

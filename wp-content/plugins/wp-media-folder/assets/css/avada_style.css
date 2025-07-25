@@ -1,0 +1,382 @@
+.wpmf-avada-icon {
+    vertical-align: middle;
+}
+
+.wpmf-avada-icon:before {
+    content: '';
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+}
+
+.wpmf-avada-singlefile-icon:before {
+    background-image: url("/site/wp-content/plugins/wp-media-folder/assets/images/file_design_backend-avada.svg");
+    width: 1em;
+    height: 1em;
+    background-size: 1em;
+}
+
+.wpmf-avada-pdf-embed-icon:before {
+    background-image: url("/site/wp-content/plugins/wp-media-folder/assets/images/pdf_embed_backend-avada.svg");
+    width: 1em;
+    height: 1em;
+    background-size: 1em;
+}
+
+.wpmf-avada-gallery-icon:before {
+    background-image: url("/site/wp-content/plugins/wp-media-folder/assets/images/gallery_backend-avada.svg");
+    width: 1em;
+    height: 1em;
+    background-size: 1em;
+}
+
+.wpmf-avada-gallery-addon-icon:before {
+    background-image: url("/site/wp-content/plugins/wp-media-folder/assets/images/gallery_addon_backend-avada.svg");
+    width: 1em;
+    height: 1em;
+    background-size: 1em;
+}
+
+.fusion-builder-live .wpmf-avada-singlefile-icon:before {
+    background-image: url("/site/wp-content/plugins/wp-media-folder/assets/images/file_design-avada.svg");
+    width: 30px;
+    height: 30px;
+    background-size: 30px;
+}
+
+.fusion-builder-live .wpmf-avada-pdf-embed-icon:before {
+    background-image: url("/site/wp-content/plugins/wp-media-folder/assets/images/pdf_embed-avada.svg");
+    width: 30px;
+    height: 30px;
+    background-size: 30px;
+}
+
+.fusion-builder-live .wpmf-avada-gallery-icon:before {
+    background-image: url("/site/wp-content/plugins/wp-media-folder/assets/images/gallery-avada.svg");
+    width: 30px;
+    height: 30px;
+    background-size: 30px;
+}
+
+.fusion-builder-live .wpmf-avada-gallery-addon-icon:before {
+    background-image: url("/site/wp-content/plugins/wp-media-folder/assets/images/gallery_addon-avada.svg");
+    width: 30px;
+    height: 30px;
+    background-size: 30px;
+}
+
+.fusion-builder-live .wpmf_avada_single_file:hover .wpmf-avada-singlefile-icon:before {
+    background-image: url("/site/wp-content/plugins/wp-media-folder/assets/images/file_design_hover-avada.svg");
+}
+
+.fusion-builder-live .wpmf_avada_pdf_embed:hover .wpmf-avada-pdf-embed-icon:before {
+    background-image: url("/site/wp-content/plugins/wp-media-folder/assets/images/pdf_embed_hover-avada.svg");
+}
+
+.fusion-builder-live .wpmf_fusion_gallery:hover .wpmf-avada-gallery-icon:before {
+    background-image: url("/site/wp-content/plugins/wp-media-folder/assets/images/gallery_hover-avada.svg");
+}
+
+.fusion-builder-live .wpmf_fusion_gallery_addon:hover .wpmf-avada-gallery-addon-icon:before {
+    background-image: url("/site/wp-content/plugins/wp-media-folder/assets/images/gallery_addon_hover-avada.svg");
+}
+
+.wpmf-avada-container {
+    position: relative;
+    text-align: center;
+}
+
+.wpmf-avada-container .avada-pdf-embed-placeholder {
+    background: url(/site/wp-content/plugins/wp-media-folder/assets/images/pdf_embed_place_holder.svg) no-repeat scroll center center #fafafa;
+    height: 200px;
+    border-radius: 2px;
+    width: 100%;
+    background-size: auto 60%;
+}
+
+.wpmf-avada-container .avada-file-design-placeholder {
+    background: url(/site/wp-content/plugins/wp-media-folder/assets/images/file_design_place_holder.svg) no-repeat scroll center center #fafafa;
+    height: 200px;
+    border-radius: 2px;
+    width: 100%;
+    background-size: auto 60%;
+}
+
+.wpmf-avada-container .avada-gallery-placeholder {
+    background: url(/site/wp-content/plugins/wp-media-folder/assets/images/gallery_place_holder.svg) no-repeat scroll center center #fafafa;
+    height: 200px;
+    border-radius: 2px;
+    width: 100%;
+    background-size: auto 60%;
+}
+
+.wpmf-avada-container .avada-gallery-addon-placeholder {
+    background: url(/site/wp-content/plugins/wp-media-folder/assets/images/gallery_addon_place_holder.svg) no-repeat scroll center center #fafafa;
+    height: 200px;
+    border-radius: 2px;
+    width: 100%;
+    background-size: auto 60%;
+}
+
+.wpmf-avada-container .wpmf-avada-message {
+    font-size: 13px;
+    text-align: center;
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    left: 0;
+    color: #222;
+}
+
+.wpmf_avada_select_pdf,
+.wpmf_avada_select_file,
+.wpmf_avada_select_images {
+    display: inline-flex !important;
+    align-items: center !important;
+    padding: 0 30px !important;
+    height: 40px !important;
+    width: auto !important;
+    background: #fff !important;
+    border: 1px solid #e0e3e7 !important;
+    border-radius: 4px !important;
+    box-shadow: none;
+    font-family: "Noto Sans",Roboto,"Open Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif!important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    color: #222 !important;
+    text-decoration: none !important;
+    transition: color .1s ease !important;
+    outline: 0 !important;
+}
+
+.wpmf_avada_select_pdf:hover,
+.wpmf_avada_select_file:hover,
+.wpmf_avada_select_images:hover {
+    color: #198fd9 !important;
+}
+
+.wpmf-fusion-images {
+    margin-top: 15px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wpmf-fusion-images.wpmf-fusion-loading:before {
+    content: '';
+    background-color: rgba(255,255,255,0.5);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+}
+
+.wpmf-fusion-image-child {
+    position: relative;
+    cursor: pointer;
+    width: calc(25% - 15px);
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-height: 150px;
+    overflow: hidden;
+    list-style: none;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    box-sizing: border-box;
+    height: min-content;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.fusion-builder-live .wpmf-fusion-image-child {
+    width: calc(25% - 10px);
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.wpmf-image-preview {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    height: 100%;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.wpmf-image-preview:before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+
+.wpmf-image-preview .square_thumbnail {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 1;
+    transition: opacity .1s;
+}
+
+.wpmf-image-preview .square_thumbnail:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 0 1px rgba(0,0,0,.1);
+    overflow: hidden;
+}
+
+.wpmf-fusion-image-child:hover .wpmf-image-preview .square_thumbnail:after {
+    background-color: rgba(0,0,0,0.2);
+}
+
+.wpmf-image-preview .square_thumbnail .img_centered {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translate(50%,50%);
+}
+
+.wpmf-image-preview .square_thumbnail .img_centered img {
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-height: 100%;
+    max-width: none;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+button.fusiona-remove-image.fusion-wpmf-gallery-remove-image {
+    font-size: 14px;
+    border: none;
+    width: auto;
+    height: auto;
+    margin: 0;
+    margin-left: auto;
+    padding: 0;
+    cursor: pointer;
+    outline: none;
+    background: none;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    z-index: 999;
+    color: #fff;
+}
+
+.fusion-builder-live button.fusiona-remove-image.fusion-wpmf-gallery-remove-image {
+    right: 5px;
+    top: 5px;
+}
+
+.fusion-wpmf-gallery-remove-image:before {
+    content: "\f014";
+    font-size: 24px;
+    display: block;
+}
+
+.fusion-builder-live .fusion-wpmf-gallery-remove-image:before {
+    font-size: 18px;
+    transform: none;
+    z-index: 99;
+}
+
+
+.wpmf_fusion_gallery li[data-option-id="items"] {
+    display: none;
+}
+
+.fusion-builder-live .gallery-masonry .wpmf-gallery-item {
+    margin: 0 !important;
+}
+
+.fusion-builder-live .wpmf-gallerys:not([data-layout="horizontal"]) .gallery-masonry.gallery-columns-1 .wpmf-gallery-item {
+    width: 100% !important;
+}
+
+.fusion-builder-live .wpmf-gallerys:not([data-layout="horizontal"]) .gallery-masonry.gallery-columns-2 .wpmf-gallery-item {
+    width: 50% !important;
+}
+
+.fusion-builder-live .wpmf-gallerys:not([data-layout="horizontal"]) .gallery-masonry.gallery-columns-3 .wpmf-gallery-item {
+    width: calc(100%/3) !important;
+}
+
+.fusion-builder-live .wpmf-gallerys:not([data-layout="horizontal"]) .gallery-masonry.gallery-columns-4 .wpmf-gallery-item {
+    width: 25% !important;
+}
+
+.fusion-builder-live .wpmf-gallerys:not([data-layout="horizontal"]) .gallery-masonry.gallery-columns-5 .wpmf-gallery-item {
+    width: 20% !important;
+}
+
+.fusion-builder-live .wpmf-gallerys:not([data-layout="horizontal"]) .gallery-masonry.gallery-columns-6 .wpmf-gallery-item {
+    width: calc(100%/6) !important;
+}
+
+.fusion-builder-live .wpmf-gallerys:not([data-layout="horizontal"]) .gallery-masonry.gallery-columns-7 .wpmf-gallery-item {
+    width: calc(100%/7) !important;
+}
+
+.fusion-builder-live .wpmf-gallerys:not([data-layout="horizontal"]) .gallery-masonry.gallery-columns-8 .wpmf-gallery-item {
+    width: 12.5% !important;
+}
+
+.fusion-builder-live .gallery-masonry.wpmf-gutterwidth-5 .wpmf-gallery-item {
+    padding: 2.5px;
+}
+
+.fusion-builder-live .gallery-masonry.wpmf-gutterwidth-10 .wpmf-gallery-item {
+    padding: 5px;
+}
+
+.fusion-builder-live .gallery-masonry.wpmf-gutterwidth-15 .wpmf-gallery-item {
+    padding: 7.5px;
+}
+
+.fusion-builder-live .gallery-masonry.wpmf-gutterwidth-20 .wpmf-gallery-item {
+    padding: 10px;
+}
+
+.fusion-builder-live .gallery-masonry.wpmf-gutterwidth-25 .wpmf-gallery-item {
+    padding: 12.5px;
+}
+
+.fusion-builder-live .gallery-masonry.wpmf-gutterwidth-30 .wpmf-gallery-item {
+    padding: 15px;
+}
+
+.fusion-builder-live .gallery-masonry.wpmf-gutterwidth-35 .wpmf-gallery-item {
+    padding: 17.5px;
+}
+
+.fusion-builder-live .gallery-masonry.wpmf-gutterwidth-40 .wpmf-gallery-item {
+    padding: 20px;
+}
+
+.fusion-builder-live .gallery-masonry.wpmf-gutterwidth-45 .wpmf-gallery-item {
+    padding: 22.5px;
+}
+
+.fusion-builder-live .gallery-masonry.wpmf-gutterwidth-50 .wpmf-gallery-item {
+    padding: 25px;
+}
