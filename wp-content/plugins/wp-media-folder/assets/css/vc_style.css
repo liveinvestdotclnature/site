@@ -26,7 +26,7 @@
 }
 
 .wpmf-vc-container .vc-pdf-embed-placeholder {
-    background: url(/site/wp-content/plugins/wp-media-folder/assets/images/pdf_embed_place_holder.svg) no-repeat scroll center center #fafafa;
+    background: url(/wp-content/plugins/wp-media-folder/assets/images/pdf_embed_place_holder.svg) no-repeat scroll center center #fafafa;
     height: 200px;
     border-radius: 2px;
     width: 100%;
@@ -34,7 +34,7 @@
 }
 
 .wpmf-vc-container .vc-file-design-placeholder {
-    background: url(/site/wp-content/plugins/wp-media-folder/assets/images/file_design_place_holder.svg) no-repeat scroll center center #fafafa;
+    background: url(/wp-content/plugins/wp-media-folder/assets/images/file_design_place_holder.svg) no-repeat scroll center center #fafafa;
     height: 200px;
     border-radius: 2px;
     width: 100%;
@@ -42,7 +42,7 @@
 }
 
 .wpmf-vc-container .vc-gallery-placeholder {
-    background: url(/site/wp-content/plugins/wp-media-folder/assets/images/gallery_place_holder.svg) no-repeat scroll center center #fafafa;
+    background: url(/wp-content/plugins/wp-media-folder/assets/images/gallery_place_holder.svg) no-repeat scroll center center #fafafa;
     height: 200px;
     border-radius: 2px;
     width: 100%;
@@ -50,7 +50,7 @@
 }
 
 .wpmf-vc-container .vc-gallery-addon-placeholder {
-    background: url(/site/wp-content/plugins/wp-media-folder/assets/images/gallery_addon_place_holder.svg) no-repeat scroll center center #fafafa;
+    background: url(/wp-content/plugins/wp-media-folder/assets/images/gallery_addon_place_holder.svg) no-repeat scroll center center #fafafa;
     height: 200px;
     border-radius: 2px;
     width: 100%;

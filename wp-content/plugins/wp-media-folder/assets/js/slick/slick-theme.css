@@ -2,7 +2,7 @@
 /* Slider */
 .slick-loading .slick-list
 {
-    background: #fff url('/site/wp-content/plugins/wp-media-folder/assets/js/slick/ajax-loader.gif') center center no-repeat;
+    background: #fff url('/wp-content/plugins/wp-media-folder/assets/js/slick/ajax-loader.gif') center center no-repeat;
 }
 
 /* Icons */
@@ -12,8 +12,8 @@
     font-weight: normal;
     font-style: normal;
 
-    src: url('/site/wp-content/plugins/wp-media-folder/assets/js/slick/fonts/slick.eot');
-    src: url('/site/wp-content/plugins/wp-media-folder/assets/js/slick/fonts/slick.eot#iefix') format('embedded-opentype'), url('/site/wp-content/plugins/wp-media-folder/assets/js/slick/fonts/slick.woff') format('woff'), url('/site/wp-content/plugins/wp-media-folder/assets/js/slick/fonts/slick.ttf') format('truetype'), url('/site/wp-content/plugins/wp-media-folder/assets/js/slick/fonts/slick.svg#slick') format('svg');
+    src: url('/wp-content/plugins/wp-media-folder/assets/js/slick/fonts/slick.eot');
+    src: url('/wp-content/plugins/wp-media-folder/assets/js/slick/fonts/slick.eot#iefix') format('embedded-opentype'), url('/wp-content/plugins/wp-media-folder/assets/js/slick/fonts/slick.woff') format('woff'), url('/wp-content/plugins/wp-media-folder/assets/js/slick/fonts/slick.ttf') format('truetype'), url('/wp-content/plugins/wp-media-folder/assets/js/slick/fonts/slick.svg#slick') format('svg');
 }
 /* Arrows */
 .slick-prev,

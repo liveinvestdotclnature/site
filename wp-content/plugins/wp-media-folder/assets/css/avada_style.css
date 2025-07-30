@@ -11,75 +11,75 @@
 }
 
 .wpmf-avada-singlefile-icon:before {
-    background-image: url("/site/wp-content/plugins/wp-media-folder/assets/images/file_design_backend-avada.svg");
+    background-image: url("/wp-content/plugins/wp-media-folder/assets/images/file_design_backend-avada.svg");
     width: 1em;
     height: 1em;
     background-size: 1em;
 }
 
 .wpmf-avada-pdf-embed-icon:before {
-    background-image: url("/site/wp-content/plugins/wp-media-folder/assets/images/pdf_embed_backend-avada.svg");
+    background-image: url("/wp-content/plugins/wp-media-folder/assets/images/pdf_embed_backend-avada.svg");
     width: 1em;
     height: 1em;
     background-size: 1em;
 }
 
 .wpmf-avada-gallery-icon:before {
-    background-image: url("/site/wp-content/plugins/wp-media-folder/assets/images/gallery_backend-avada.svg");
+    background-image: url("/wp-content/plugins/wp-media-folder/assets/images/gallery_backend-avada.svg");
     width: 1em;
     height: 1em;
     background-size: 1em;
 }
 
 .wpmf-avada-gallery-addon-icon:before {
-    background-image: url("/site/wp-content/plugins/wp-media-folder/assets/images/gallery_addon_backend-avada.svg");
+    background-image: url("/wp-content/plugins/wp-media-folder/assets/images/gallery_addon_backend-avada.svg");
     width: 1em;
     height: 1em;
     background-size: 1em;
 }
 
 .fusion-builder-live .wpmf-avada-singlefile-icon:before {
-    background-image: url("/site/wp-content/plugins/wp-media-folder/assets/images/file_design-avada.svg");
+    background-image: url("/wp-content/plugins/wp-media-folder/assets/images/file_design-avada.svg");
     width: 30px;
     height: 30px;
     background-size: 30px;
 }
 
 .fusion-builder-live .wpmf-avada-pdf-embed-icon:before {
-    background-image: url("/site/wp-content/plugins/wp-media-folder/assets/images/pdf_embed-avada.svg");
+    background-image: url("/wp-content/plugins/wp-media-folder/assets/images/pdf_embed-avada.svg");
     width: 30px;
     height: 30px;
     background-size: 30px;
 }
 
 .fusion-builder-live .wpmf-avada-gallery-icon:before {
-    background-image: url("/site/wp-content/plugins/wp-media-folder/assets/images/gallery-avada.svg");
+    background-image: url("/wp-content/plugins/wp-media-folder/assets/images/gallery-avada.svg");
     width: 30px;
     height: 30px;
     background-size: 30px;
 }
 
 .fusion-builder-live .wpmf-avada-gallery-addon-icon:before {
-    background-image: url("/site/wp-content/plugins/wp-media-folder/assets/images/gallery_addon-avada.svg");
+    background-image: url("/wp-content/plugins/wp-media-folder/assets/images/gallery_addon-avada.svg");
     width: 30px;
     height: 30px;
     background-size: 30px;
 }
 
 .fusion-builder-live .wpmf_avada_single_file:hover .wpmf-avada-singlefile-icon:before {
-    background-image: url("/site/wp-content/plugins/wp-media-folder/assets/images/file_design_hover-avada.svg");
+    background-image: url("/wp-content/plugins/wp-media-folder/assets/images/file_design_hover-avada.svg");
 }
 
 .fusion-builder-live .wpmf_avada_pdf_embed:hover .wpmf-avada-pdf-embed-icon:before {
-    background-image: url("/site/wp-content/plugins/wp-media-folder/assets/images/pdf_embed_hover-avada.svg");
+    background-image: url("/wp-content/plugins/wp-media-folder/assets/images/pdf_embed_hover-avada.svg");
 }
 
 .fusion-builder-live .wpmf_fusion_gallery:hover .wpmf-avada-gallery-icon:before {
-    background-image: url("/site/wp-content/plugins/wp-media-folder/assets/images/gallery_hover-avada.svg");
+    background-image: url("/wp-content/plugins/wp-media-folder/assets/images/gallery_hover-avada.svg");
 }
 
 .fusion-builder-live .wpmf_fusion_gallery_addon:hover .wpmf-avada-gallery-addon-icon:before {
-    background-image: url("/site/wp-content/plugins/wp-media-folder/assets/images/gallery_addon_hover-avada.svg");
+    background-image: url("/wp-content/plugins/wp-media-folder/assets/images/gallery_addon_hover-avada.svg");
 }
 
 .wpmf-avada-container {
@@ -88,7 +88,7 @@
 }
 
 .wpmf-avada-container .avada-pdf-embed-placeholder {
-    background: url(/site/wp-content/plugins/wp-media-folder/assets/images/pdf_embed_place_holder.svg) no-repeat scroll center center #fafafa;
+    background: url(/wp-content/plugins/wp-media-folder/assets/images/pdf_embed_place_holder.svg) no-repeat scroll center center #fafafa;
     height: 200px;
     border-radius: 2px;
     width: 100%;
@@ -96,7 +96,7 @@
 }
 
 .wpmf-avada-container .avada-file-design-placeholder {
-    background: url(/site/wp-content/plugins/wp-media-folder/assets/images/file_design_place_holder.svg) no-repeat scroll center center #fafafa;
+    background: url(/wp-content/plugins/wp-media-folder/assets/images/file_design_place_holder.svg) no-repeat scroll center center #fafafa;
     height: 200px;
     border-radius: 2px;
     width: 100%;
@@ -104,7 +104,7 @@
 }
 
 .wpmf-avada-container .avada-gallery-placeholder {
-    background: url(/site/wp-content/plugins/wp-media-folder/assets/images/gallery_place_holder.svg) no-repeat scroll center center #fafafa;
+    background: url(/wp-content/plugins/wp-media-folder/assets/images/gallery_place_holder.svg) no-repeat scroll center center #fafafa;
     height: 200px;
     border-radius: 2px;
     width: 100%;
@@ -112,7 +112,7 @@
 }
 
 .wpmf-avada-container .avada-gallery-addon-placeholder {
-    background: url(/site/wp-content/plugins/wp-media-folder/assets/images/gallery_addon_place_holder.svg) no-repeat scroll center center #fafafa;
+    background: url(/wp-content/plugins/wp-media-folder/assets/images/gallery_addon_place_holder.svg) no-repeat scroll center center #fafafa;
     height: 200px;
     border-radius: 2px;
     width: 100%;

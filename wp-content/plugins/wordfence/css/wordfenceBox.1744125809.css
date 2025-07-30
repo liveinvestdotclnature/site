@@ -42,13 +42,13 @@
 #wfboxTitle{position:absolute; bottom:8px; left:5px; text-align:center; width:100%; color:#949494;}
 #wfboxCurrent{position:absolute; bottom:8px; left:63px; color:#949494; text-indent: -9999px;}
 #wfboxSlideshow{position:absolute; bottom:8px; right:35px; color:#0092ef;}
-#wfboxPrevious{position:absolute; bottom:5px; left:5px; background:url(/site/wp-content/plugins/wordfence/images/lightbox-controls.png) no-repeat -75px 0; width:25px; height:25px; text-indent:-9999px;}
+#wfboxPrevious{position:absolute; bottom:5px; left:5px; background:url(/wp-content/plugins/wordfence/images/lightbox-controls.png) no-repeat -75px 0; width:25px; height:25px; text-indent:-9999px;}
 #wfboxPrevious.hover{background-position:-75px -25px;}
-#wfboxNext{position:absolute; bottom:5px; left:32px; background:url(/site/wp-content/plugins/wordfence/images/lightbox-controls.png) no-repeat -50px 0; width:25px; height:25px; text-indent:-9999px;}
+#wfboxNext{position:absolute; bottom:5px; left:32px; background:url(/wp-content/plugins/wordfence/images/lightbox-controls.png) no-repeat -50px 0; width:25px; height:25px; text-indent:-9999px;}
 #wfboxNext.hover{background-position:-50px -25px;}
-#wfboxLoadingOverlay{background:url(/site/wp-content/plugins/wordfence/images/loading_background.png) no-repeat center center;}
-#wfboxLoadingGraphic{background:url(/site/wp-content/plugins/wordfence/images/loading.gif) no-repeat center center;}
-#wfboxClose{position:absolute; bottom:5px; right:5px; background:url(/site/wp-content/plugins/wordfence/images/lightbox-controls.png) no-repeat -25px 0; width:25px; height:25px; text-indent:-9999px;}
+#wfboxLoadingOverlay{background:url(/wp-content/plugins/wordfence/images/loading_background.png) no-repeat center center;}
+#wfboxLoadingGraphic{background:url(/wp-content/plugins/wordfence/images/loading.gif) no-repeat center center;}
+#wfboxClose{position:absolute; bottom:5px; right:5px; background:url(/wp-content/plugins/wordfence/images/lightbox-controls.png) no-repeat -25px 0; width:25px; height:25px; text-indent:-9999px;}
 #wfboxClose.hover{background-position:-25px -25px;}
 
 /*
@@ -156,7 +156,7 @@
 
 #wordfenceBox a.wfboxhelp {
 	float: left;
-	background-image: url(/site/wp-content/plugins/wordfence/images/help.png);
+	background-image: url(/wp-content/plugins/wordfence/images/help.png);
 	width: 12px;
 	height: 12px;
 	background-position: 0 0;

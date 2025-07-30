@@ -829,11 +829,11 @@
       var(--outline-around-width)
   );
   --editorFreeText-editing-cursor: text;
-  --editorInk-editing-cursor: url(/site/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/cursor-editorInk.svg) 0 16, pointer;
+  --editorInk-editing-cursor: url(/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/cursor-editorInk.svg) 0 16, pointer;
 
   --alt-text-opacity: 0.8;
-  --alt-text-add-image: url(/site/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/altText_add.svg);
-  --alt-text-done-image: url(/site/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/altText_done.svg);
+  --alt-text-add-image: url(/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/altText_add.svg);
+  --alt-text-done-image: url(/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/altText_done.svg);
   --alt-text-bg-color: rgba(43, 42, 51, var(--alt-text-opacity));
   --alt-text-fg-color: #fbfbfe;
   --alt-text-border-color: var(--alt-text-bg-color);
@@ -850,7 +850,7 @@
 
 @media (-webkit-min-device-pixel-ratio: 1.1), (min-resolution: 1.1dppx) {
   :root {
-    --editorFreeText-editing-cursor: url(/site/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/cursor-editorFreeText.svg) 0 16,
+    --editorFreeText-editing-cursor: url(/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/cursor-editorFreeText.svg) 0 16,
       text;
   }
 }
@@ -1955,7 +1955,7 @@
   content: "";
   width: 100%;
   height: 100%;
-  background: url("/site/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/loading-icon.gif") center no-repeat;
+  background: url("/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/loading-icon.gif") center no-repeat;
   display: none;
   /* Using a delay with background-image doesn't work,
      consequently we use the display. */
@@ -2046,47 +2046,47 @@
   --dialog-button-bg-color: rgba(12, 12, 13, 0.1);
   --dialog-button-hover-bg-color: rgba(12, 12, 13, 0.3);
 
-  --loading-icon: url(/site/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/loading.svg);
-  --treeitem-expanded-icon: url(/site/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/treeitem-expanded.svg);
-  --treeitem-collapsed-icon: url(/site/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/treeitem-collapsed.svg);
-  --toolbarButton-editorFreeText-icon: url(/site/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/toolbarButton-editorFreeText.svg);
-  --toolbarButton-editorInk-icon: url(/site/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/toolbarButton-editorInk.svg);
-  --toolbarButton-editorStamp-icon: url(/site/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/toolbarButton-editorStamp.svg);
-  --toolbarButton-menuArrow-icon: url(/site/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/toolbarButton-menuArrow.svg);
-  --toolbarButton-sidebarToggle-icon: url(/site/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/toolbarButton-sidebarToggle.svg);
-  --toolbarButton-secondaryToolbarToggle-icon: url(/site/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/toolbarButton-secondaryToolbarToggle.svg);
-  --toolbarButton-pageUp-icon: url(/site/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/toolbarButton-pageUp.svg);
-  --toolbarButton-pageDown-icon: url(/site/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/toolbarButton-pageDown.svg);
-  --toolbarButton-zoomOut-icon: url(/site/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/toolbarButton-zoomOut.svg);
-  --toolbarButton-zoomIn-icon: url(/site/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/toolbarButton-zoomIn.svg);
-  --toolbarButton-presentationMode-icon: url(/site/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/toolbarButton-presentationMode.svg);
-  --toolbarButton-print-icon: url(/site/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/toolbarButton-print.svg);
-  --toolbarButton-openFile-icon: url(/site/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/toolbarButton-openFile.svg);
-  --toolbarButton-download-icon: url(/site/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/toolbarButton-download.svg);
-  --toolbarButton-bookmark-icon: url(/site/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/toolbarButton-bookmark.svg);
-  --toolbarButton-viewThumbnail-icon: url(/site/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/toolbarButton-viewThumbnail.svg);
-  --toolbarButton-viewOutline-icon: url(/site/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/toolbarButton-viewOutline.svg);
-  --toolbarButton-viewAttachments-icon: url(/site/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/toolbarButton-viewAttachments.svg);
-  --toolbarButton-viewLayers-icon: url(/site/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/toolbarButton-viewLayers.svg);
-  --toolbarButton-currentOutlineItem-icon: url(/site/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/toolbarButton-currentOutlineItem.svg);
-  --toolbarButton-search-icon: url(/site/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/toolbarButton-search.svg);
-  --findbarButton-previous-icon: url(/site/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/findbarButton-previous.svg);
-  --findbarButton-next-icon: url(/site/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/findbarButton-next.svg);
-  --secondaryToolbarButton-firstPage-icon: url(/site/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/secondaryToolbarButton-firstPage.svg);
-  --secondaryToolbarButton-lastPage-icon: url(/site/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/secondaryToolbarButton-lastPage.svg);
-  --secondaryToolbarButton-rotateCcw-icon: url(/site/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/secondaryToolbarButton-rotateCcw.svg);
-  --secondaryToolbarButton-rotateCw-icon: url(/site/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/secondaryToolbarButton-rotateCw.svg);
-  --secondaryToolbarButton-selectTool-icon: url(/site/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/secondaryToolbarButton-selectTool.svg);
-  --secondaryToolbarButton-handTool-icon: url(/site/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/secondaryToolbarButton-handTool.svg);
-  --secondaryToolbarButton-scrollPage-icon: url(/site/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/secondaryToolbarButton-scrollPage.svg);
-  --secondaryToolbarButton-scrollVertical-icon: url(/site/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/secondaryToolbarButton-scrollVertical.svg);
-  --secondaryToolbarButton-scrollHorizontal-icon: url(/site/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/secondaryToolbarButton-scrollHorizontal.svg);
-  --secondaryToolbarButton-scrollWrapped-icon: url(/site/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/secondaryToolbarButton-scrollWrapped.svg);
-  --secondaryToolbarButton-spreadNone-icon: url(/site/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/secondaryToolbarButton-spreadNone.svg);
-  --secondaryToolbarButton-spreadOdd-icon: url(/site/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/secondaryToolbarButton-spreadOdd.svg);
-  --secondaryToolbarButton-spreadEven-icon: url(/site/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/secondaryToolbarButton-spreadEven.svg);
-  --secondaryToolbarButton-documentProperties-icon: url(/site/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/secondaryToolbarButton-documentProperties.svg);
-  --editorParams-stampAddImage-icon: url(/site/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/toolbarButton-zoomIn.svg);
+  --loading-icon: url(/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/loading.svg);
+  --treeitem-expanded-icon: url(/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/treeitem-expanded.svg);
+  --treeitem-collapsed-icon: url(/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/treeitem-collapsed.svg);
+  --toolbarButton-editorFreeText-icon: url(/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/toolbarButton-editorFreeText.svg);
+  --toolbarButton-editorInk-icon: url(/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/toolbarButton-editorInk.svg);
+  --toolbarButton-editorStamp-icon: url(/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/toolbarButton-editorStamp.svg);
+  --toolbarButton-menuArrow-icon: url(/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/toolbarButton-menuArrow.svg);
+  --toolbarButton-sidebarToggle-icon: url(/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/toolbarButton-sidebarToggle.svg);
+  --toolbarButton-secondaryToolbarToggle-icon: url(/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/toolbarButton-secondaryToolbarToggle.svg);
+  --toolbarButton-pageUp-icon: url(/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/toolbarButton-pageUp.svg);
+  --toolbarButton-pageDown-icon: url(/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/toolbarButton-pageDown.svg);
+  --toolbarButton-zoomOut-icon: url(/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/toolbarButton-zoomOut.svg);
+  --toolbarButton-zoomIn-icon: url(/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/toolbarButton-zoomIn.svg);
+  --toolbarButton-presentationMode-icon: url(/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/toolbarButton-presentationMode.svg);
+  --toolbarButton-print-icon: url(/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/toolbarButton-print.svg);
+  --toolbarButton-openFile-icon: url(/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/toolbarButton-openFile.svg);
+  --toolbarButton-download-icon: url(/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/toolbarButton-download.svg);
+  --toolbarButton-bookmark-icon: url(/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/toolbarButton-bookmark.svg);
+  --toolbarButton-viewThumbnail-icon: url(/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/toolbarButton-viewThumbnail.svg);
+  --toolbarButton-viewOutline-icon: url(/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/toolbarButton-viewOutline.svg);
+  --toolbarButton-viewAttachments-icon: url(/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/toolbarButton-viewAttachments.svg);
+  --toolbarButton-viewLayers-icon: url(/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/toolbarButton-viewLayers.svg);
+  --toolbarButton-currentOutlineItem-icon: url(/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/toolbarButton-currentOutlineItem.svg);
+  --toolbarButton-search-icon: url(/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/toolbarButton-search.svg);
+  --findbarButton-previous-icon: url(/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/findbarButton-previous.svg);
+  --findbarButton-next-icon: url(/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/findbarButton-next.svg);
+  --secondaryToolbarButton-firstPage-icon: url(/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/secondaryToolbarButton-firstPage.svg);
+  --secondaryToolbarButton-lastPage-icon: url(/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/secondaryToolbarButton-lastPage.svg);
+  --secondaryToolbarButton-rotateCcw-icon: url(/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/secondaryToolbarButton-rotateCcw.svg);
+  --secondaryToolbarButton-rotateCw-icon: url(/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/secondaryToolbarButton-rotateCw.svg);
+  --secondaryToolbarButton-selectTool-icon: url(/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/secondaryToolbarButton-selectTool.svg);
+  --secondaryToolbarButton-handTool-icon: url(/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/secondaryToolbarButton-handTool.svg);
+  --secondaryToolbarButton-scrollPage-icon: url(/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/secondaryToolbarButton-scrollPage.svg);
+  --secondaryToolbarButton-scrollVertical-icon: url(/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/secondaryToolbarButton-scrollVertical.svg);
+  --secondaryToolbarButton-scrollHorizontal-icon: url(/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/secondaryToolbarButton-scrollHorizontal.svg);
+  --secondaryToolbarButton-scrollWrapped-icon: url(/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/secondaryToolbarButton-scrollWrapped.svg);
+  --secondaryToolbarButton-spreadNone-icon: url(/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/secondaryToolbarButton-spreadNone.svg);
+  --secondaryToolbarButton-spreadOdd-icon: url(/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/secondaryToolbarButton-spreadOdd.svg);
+  --secondaryToolbarButton-spreadEven-icon: url(/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/secondaryToolbarButton-spreadEven.svg);
+  --secondaryToolbarButton-documentProperties-icon: url(/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/secondaryToolbarButton-documentProperties.svg);
+  --editorParams-stampAddImage-icon: url(/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/toolbarButton-zoomIn.svg);
 }
 
 [dir="rtl"]:root {
@@ -2138,7 +2138,7 @@
     /* This image is used in <input> elements, which unfortunately means that
      * the `mask-image` approach used with all of the other images doesn't work
      * here; hence why we still have two versions of this particular image. */
-    --loading-icon: url(/site/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/loading-dark.svg);
+    --loading-icon: url(/wp-content/plugins/wp-media-folder/assets/css/pdf-embed/images/loading-dark.svg);
   }
 }
 

@@ -1,6 +1,6 @@
 li.wpmf_gallery_divi:before {
     content: "";
-    background-image: url(/site/wp-content/plugins/wp-media-folder/assets/images/gallery-divi.svg);
+    background-image: url(/wp-content/plugins/wp-media-folder/assets/images/gallery-divi.svg);
     background-repeat: no-repeat;
     background-position: center center;
     margin: 0 auto;
@@ -11,7 +11,7 @@ li.wpmf_gallery_divi:before {
 
 li.wpmf_gallery_addon_divi:before {
     content: "";
-    background-image: url(/site/wp-content/plugins/wp-media-folder/assets/images/gallery_addon_divi.svg);
+    background-image: url(/wp-content/plugins/wp-media-folder/assets/images/gallery_addon_divi.svg);
     background-repeat: no-repeat;
     background-position: center center;
     margin: 0 auto;
@@ -22,7 +22,7 @@ li.wpmf_gallery_addon_divi:before {
 
 li.wpmf_file_design:before {
     content: "";
-    background-image: url(/site/wp-content/plugins/wp-media-folder/assets/images/file_design_divi.svg);
+    background-image: url(/wp-content/plugins/wp-media-folder/assets/images/file_design_divi.svg);
     background-repeat: no-repeat;
     background-position: center center;
     margin: 0 auto;
@@ -33,7 +33,7 @@ li.wpmf_file_design:before {
 
 li.wpmf_pdf_embed:before {
     content: "";
-    background-image: url(/site/wp-content/plugins/wp-media-folder/assets/images/pdf_embed_divi.svg);
+    background-image: url(/wp-content/plugins/wp-media-folder/assets/images/pdf_embed_divi.svg);
     background-repeat: no-repeat;
     background-position: center center;
     margin: 0 auto;
@@ -48,7 +48,7 @@ li.wpmf_pdf_embed:before {
 }
 
 .wpmf-divi-container .divi-pdf-embed-placeholder {
-    background: url(/site/wp-content/plugins/wp-media-folder/assets/images/pdf_embed_place_holder.svg) no-repeat scroll center center #fafafa;
+    background: url(/wp-content/plugins/wp-media-folder/assets/images/pdf_embed_place_holder.svg) no-repeat scroll center center #fafafa;
     height: 200px;
     border-radius: 2px;
     width: 100%;
@@ -56,7 +56,7 @@ li.wpmf_pdf_embed:before {
 }
 
 .wpmf-divi-container .divi-file-design-placeholder {
-    background: url(/site/wp-content/plugins/wp-media-folder/assets/images/file_design_place_holder.svg) no-repeat scroll center center #fafafa;
+    background: url(/wp-content/plugins/wp-media-folder/assets/images/file_design_place_holder.svg) no-repeat scroll center center #fafafa;
     height: 200px;
     border-radius: 2px;
     width: 100%;
@@ -64,7 +64,7 @@ li.wpmf_pdf_embed:before {
 }
 
 .wpmf-divi-container .divi-gallery-placeholder {
-    background: url(/site/wp-content/plugins/wp-media-folder/assets/images/gallery_place_holder.svg) no-repeat scroll center center #fafafa;
+    background: url(/wp-content/plugins/wp-media-folder/assets/images/gallery_place_holder.svg) no-repeat scroll center center #fafafa;
     height: 200px;
     border-radius: 2px;
     width: 100%;
@@ -72,7 +72,7 @@ li.wpmf_pdf_embed:before {
 }
 
 .wpmf-divi-container .divi-gallery-addon-placeholder {
-    background: url(/site/wp-content/plugins/wp-media-folder/assets/images/gallery_addon_place_holder.svg) no-repeat scroll center center #fafafa;
+    background: url(/wp-content/plugins/wp-media-folder/assets/images/gallery_addon_place_holder.svg) no-repeat scroll center center #fafafa;
     height: 200px;
     border-radius: 2px;
     width: 100%;

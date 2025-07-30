@@ -150,7 +150,7 @@
     height: 20px;
     background-size: 100% 100%;
     position: absolute;
-    background-image: url(/site/wp-content/plugins/wp-media-folder/assets/images/Media.svg);
+    background-image: url(/wp-content/plugins/wp-media-folder/assets/images/Media.svg);
 }
 
 .wpmfexternal_cats_categories_tree .material-icons {

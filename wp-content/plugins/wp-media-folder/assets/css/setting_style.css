@@ -507,7 +507,7 @@ ul.jaofiletree a:hover {
 
 /* Core Styles */
 .jaofiletree li.wait {
-    background: url(/site/wp-content/plugins/wp-media-folder/assets/images/spinner.gif) left top no-repeat;
+    background: url(/wp-content/plugins/wp-media-folder/assets/images/spinner.gif) left top no-repeat;
 }
 
 #file_browser {

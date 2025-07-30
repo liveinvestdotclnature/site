@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Live &amp; Invest</title>
-	<atom:link href="/site/feed/" rel="self" type="application/rss+xml" />
-	<link>/site/</link>
+	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
 	<description></description>
 	<lastBuildDate>Wed, 18 Jun 2025 16:05:19 +0000</lastBuildDate>
 	<language>es</language>
@@ -21,9 +21,9 @@
 	<generator>https://wordpress.org/?v=6.8.2</generator>
 
 <image>
-	<url>/site/wp-content/uploads/Logo.webp</url>
+	<url>/wp-content/uploads/Logo.webp</url>
 	<title>Live &amp; Invest</title>
-	<link>/site/</link>
+	<link>/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 

@@ -1,31 +1,31 @@
 .wpmf-gallery-elementor-icon:before {
-    background-image: url(/site/wp-content/plugins/wp-media-folder/assets/images/gallery.svg);
+    background-image: url(/wp-content/plugins/wp-media-folder/assets/images/gallery.svg);
 }
 
 .wpmf-gallery-addon-elementor-icon:before {
-    background-image: url(/site/wp-content/plugins/wp-media-folder/assets/images/gallery_addon.svg);
+    background-image: url(/wp-content/plugins/wp-media-folder/assets/images/gallery_addon.svg);
 }
 
 .wpmf-pdf-embed-elementor-icon:before {
-    background-image: url(/site/wp-content/plugins/wp-media-folder/assets/images/pdf_embed.svg);
+    background-image: url(/wp-content/plugins/wp-media-folder/assets/images/pdf_embed.svg);
 }
 
 .wpmf-file-design-elementor-icon:before {
-    background-image: url(/site/wp-content/plugins/wp-media-folder/assets/images/file_design.svg);
+    background-image: url(/wp-content/plugins/wp-media-folder/assets/images/file_design.svg);
 }
 
 .elementor-panel .elementor-element:hover .icon .wpmf-gallery-elementor-icon:before {
-    background-image: url(/site/wp-content/plugins/wp-media-folder/assets/images/gallery_light_hover.svg);
+    background-image: url(/wp-content/plugins/wp-media-folder/assets/images/gallery_light_hover.svg);
 }
 
 .elementor-panel .elementor-element:hover .icon .wpmf-gallery-addon-elementor-icon:before {
-    background-image: url(/site/wp-content/plugins/wp-media-folder/assets/images/gallery_addon_light_hover.svg);
+    background-image: url(/wp-content/plugins/wp-media-folder/assets/images/gallery_addon_light_hover.svg);
 }
 
 .elementor-panel .elementor-element:hover .icon .wpmf-pdf-embed-elementor-icon:before {
-    background-image: url(/site/wp-content/plugins/wp-media-folder/assets/images/pdf_embed_light_hover.svg);
+    background-image: url(/wp-content/plugins/wp-media-folder/assets/images/pdf_embed_light_hover.svg);
 }
 
 .elementor-panel .elementor-element:hover .icon .wpmf-file-design-elementor-icon:before {
-    background-image: url(/site/wp-content/plugins/wp-media-folder/assets/images/file_design_light_hover.svg);
+    background-image: url(/wp-content/plugins/wp-media-folder/assets/images/file_design_light_hover.svg);
 }

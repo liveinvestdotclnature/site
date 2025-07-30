@@ -4,7 +4,7 @@ body {
 	font-size: 12px;
 }
 h1 {
-	background: url(/site/wp-content/plugins/wordfence/images/wordfence-logo.svg);
+	background: url(/wp-content/plugins/wordfence/images/wordfence-logo.svg);
 	background-position: 0 0;
 	background-repeat: no-repeat;
 	height: 64px;

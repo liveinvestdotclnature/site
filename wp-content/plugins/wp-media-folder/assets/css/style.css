@@ -8,11 +8,11 @@
     font-family: 'Material Icons';
     font-style: normal;
     font-weight: 400;
-    src: url('/site/wp-content/plugins/wp-media-folder/assets/fonts/MaterialIcons-Regular.eot');
+    src: url('/wp-content/plugins/wp-media-folder/assets/fonts/MaterialIcons-Regular.eot');
     /* For IE6-8 */
-    src: url('/site/wp-content/plugins/wp-media-folder/assets/fonts/MaterialIcons-Regular.woff2') format('woff2'),
-    url('/site/wp-content/plugins/wp-media-folder/assets/fonts/MaterialIcons-Regular.woff') format('woff'),
-    url('/site/wp-content/plugins/wp-media-folder/assets/fonts/MaterialIcons-Regular.ttf') format('truetype');
+    src: url('/wp-content/plugins/wp-media-folder/assets/fonts/MaterialIcons-Regular.woff2') format('woff2'),
+    url('/wp-content/plugins/wp-media-folder/assets/fonts/MaterialIcons-Regular.woff') format('woff'),
+    url('/wp-content/plugins/wp-media-folder/assets/fonts/MaterialIcons-Regular.ttf') format('truetype');
 }
 
 /* Tagify */
@@ -1143,8 +1143,8 @@ ul.attachments .attachment {
 
 @font-face {
     font-family: 'icomoon';
-    src: url('/site/wp-content/plugins/wp-media-folder/assets/fonts/icomoon.eot?137reo');
-    src: url('/site/wp-content/plugins/wp-media-folder/assets/fonts/icomoon.eot#iefix137reo') format('embedded-opentype'), url('/site/wp-content/plugins/wp-media-folder/assets/fonts/icomoon.woff?137reo') format('woff'), url('/site/wp-content/plugins/wp-media-folder/assets/fonts/icomoon.ttf?137reo') format('truetype'), url('/site/wp-content/plugins/wp-media-folder/assets/fonts/icomoon.svg?137reo#icomoon') format('svg');
+    src: url('/wp-content/plugins/wp-media-folder/assets/fonts/icomoon.eot?137reo');
+    src: url('/wp-content/plugins/wp-media-folder/assets/fonts/icomoon.eot#iefix137reo') format('embedded-opentype'), url('/wp-content/plugins/wp-media-folder/assets/fonts/icomoon.woff?137reo') format('woff'), url('/wp-content/plugins/wp-media-folder/assets/fonts/icomoon.ttf?137reo') format('truetype'), url('/wp-content/plugins/wp-media-folder/assets/fonts/icomoon.svg?137reo#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -2045,7 +2045,7 @@ ul.attachments .attachment {
 }
 
 .wpmf-item .wpmf-arrow {
-    background-image: url(/site/wp-content/plugins/wp-media-folder/assets/images/Arrow-tree.svg);
+    background-image: url(/wp-content/plugins/wp-media-folder/assets/images/Arrow-tree.svg);
     width: 20px;
     height: 8px;
     display: inline-block;
@@ -2640,7 +2640,7 @@ ul.attachments .attachment {
     left: 0;
     right: 0;
     bottom: 0;
-    background: #f2f2f2 url(/site/wp-content/plugins/wp-media-folder/assets/images/balls.gif) center 200px no-repeat;
+    background: #f2f2f2 url(/wp-content/plugins/wp-media-folder/assets/images/balls.gif) center 200px no-repeat;
     z-index: 99998;
 }
 
@@ -2709,7 +2709,7 @@ ul.attachments .attachment {
     height: 24px;
     background-size: 100% 100%;
     position: absolute;
-    background-image: url(/site/wp-content/plugins/wp-media-folder/assets/images/ju-logo.png);
+    background-image: url(/wp-content/plugins/wp-media-folder/assets/images/ju-logo.png);
 }
 
 .wpmf_filter_label {
@@ -3260,7 +3260,7 @@ ul.attachments .attachment {
 }
 
 .wpmf_spinner {
-    background: url(/site/wp-content/plugins/wp-media-folder/assets/images/spinner.gif) no-repeat;
+    background: url(/wp-content/plugins/wp-media-folder/assets/images/spinner.gif) no-repeat;
     background-size: 20px 20px;
     float: right;
     vertical-align: middle;
@@ -3920,10 +3920,10 @@ body.folded .wpmf-folder-post-type {
     display: block;
 }
 .wpmf-hide-show-buttons .hide-folders {
-    background: url('/site/wp-content/plugins/wp-media-folder/assets/images/folder-off.svg') no-repeat;
+    background: url('/wp-content/plugins/wp-media-folder/assets/images/folder-off.svg') no-repeat;
 }
 .wpmf-hide-show-buttons .show-folders {
-    background: url('/site/wp-content/plugins/wp-media-folder/assets/images/drive-file-move-outline.svg') no-repeat;
+    background: url('/wp-content/plugins/wp-media-folder/assets/images/drive-file-move-outline.svg') no-repeat;
 }
 .wpmf-hide-folder-tree .wpmf-main-tree {
     width: 0!important;
